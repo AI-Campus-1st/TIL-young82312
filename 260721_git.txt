@@ -10,3 +10,15 @@ git config --global user.email "github 이메일"
 최초 1번만 실행
 git clone 저장소 주소(복제)
 이후엔 git pull 사용
+
+내가 만든 폴더는 어떻게 올리지?
+최초 1회
+git init - 여기를 git 저장소로 
+
+저장소 연결
+git reomote add origin 저장소 주소
+
+저장소에 올리기
+git add 파일들 (모든 파일'.')
+git commit -m "기록 메세지"
+git push origin master(main)git 
