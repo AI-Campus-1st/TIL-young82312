@@ -1,0 +1,39 @@
+OS_환경변수
+->Terminal (명령을 실행하는 곳)
+->환경 변수 (Terminal에서 사용할 변수 등록해놓는 곳)
+   -> 그 중 Path 변수 (프로그램드ㄹ의 경로들을 미리 등록)
+그 결과, Terminal에서 git.exe, conda.exe(bat)의 위치를 직접 찾지 않아도 사용이 가능해진다.
+
+
+DEV_가상환경
+개발 환경 설정
+Python을 사용하기 위해 Anaconda를 설치
+☆가상환경(Virtual Environment)
+-> 특정 python 버전을 등록한 환경 (추가 설치한 라이브러리를 가상환경 별로 격리하여 관리)
+
+conda create -n study python=3.12
+conda env list
+
+
+ Jupyter
+CTRL + S - 저장
+GUI - cell 생성, 삭제
+
+단축키
+ESC - 명령모드
+
+명령모드에서
+a- 위에 셀 생성
+b- 아래에 셀 생성
+dd- 셀 삭제
+
+셀 유형변환
+M= Markdown으로
+Y= Python으로
+
+CTRL + Enter = 코드 실행
+Shift + Enter =함수  연속적으로 실행하고 싶을 때
+
+
+주석 생성/제거
+CTRL + /
